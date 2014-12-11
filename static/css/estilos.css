@@ -14,6 +14,9 @@ footer{
 	height: 5em;
 	background-color: #A90000;
 }
+input{
+	color: black;
+}
 footer p{
 	padding: 2em;
 }
@@ -29,6 +32,10 @@ nav ul li a {
 	color: #ffffff;
 	font-weight: bold;
 	text-decoration:  none;
+}
+nav ul li a:hover{
+	padding: 1em; 
+	background: red;
 }
 .promocion p, .promocion img{
 	display: inline-block;
