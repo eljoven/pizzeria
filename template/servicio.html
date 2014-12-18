@@ -2,8 +2,7 @@
 <html lang="es">
 <head>
 	<title>Pizzeria de David</title>
-	<meta chasert="utf-8"/>
-	<title>Pizzeria de David y Marco</title>
+	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="../static/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../static/css/estilos.css">
 </head>
@@ -26,19 +25,27 @@
 	<form action=""metod="">
 		<input type="text" name="nombre_cliente" placeholder="Nombre"/>
  		<input type="tel" name="telefono" placeholder="Telefono"/>
-
 		<p>Direccion</p>
  		<input type="text" name="colonia" placeholder="Colonia"/>
 		<input type="text" name="calle" placeholder="Calle"/>	
 		<input type="text" name="numero_casa" placeholder="Numero"/>
+		<div class="conjunto">
+			<p>Tamaño de masa</p>
+			<input type="radio" name="Masa" value="Gruesa"> Gruesa<br>
+			<input type="radio" name="Masa" value="Gruesa"> Delgada<br>
+		</div>
+		<div class="conjunto">
 		<p>Ingredientes</p>
-		<input type="checkbox" name="queso" value="Queso"/>Queso
-		<input type="checkbox" name="peperoni" value="Peperoni"/>Peperoni	
-		<input type="checkbox" name="frijoles" value="Frigoles"/>Frigoles
+		<input type="checkbox" name="ingredientes" value="Queso"/>Queso<br>
+		<input type="checkbox" name="ingredientes" value="Peperoni"/>Peperoni<br>
+		<input type="checkbox" name="ingredientes" value="Frigoles"/>Frigoles<br>
+		<input type="checkbox" name="ingredientes" value="Queso"/>Queso<br>
+		<input type="checkbox" name="ingredientes" value="Salsa"/>Salsa<br>
+		<input type="checkbox" name="ingredientes" value="Piña"/>Piña<br>
+		<input type="checkbox" name="ingredientes" value="Jamon"/>Jamon<br>
+	</div>
+		<input type="submit" value="Hacer pedido">
 	</form>
-
-
-
 	<footer>
 		<p>Hecho por David Duran Miranda</p>
 	</footer>	
